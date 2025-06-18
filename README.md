@@ -24,6 +24,7 @@
 <details>
 <summary>Preview</summary>
 <img src="https://furry.is-from.space/r/ss_20250618_040935.png" />
+<img src="https://furry.is-from.space/r/ss_20250618_041222.png" />
 </details>
 
 ## using
