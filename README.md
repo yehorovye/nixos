@@ -23,8 +23,7 @@
 
 <details>
 <summary>Preview</summary>
-<img src="https://furry.is-from.space/r/ss_20250617_222048.png" />
-<img src="https://furry.is-from.space/r/ss_20250617_224834.png" />
+<img src="https://furry.is-from.space/r/ss_20250618_040935.png" />
 </details>
 
 ## using
