@@ -8,7 +8,7 @@
       height = 400;
       always_parse_args = true;
       show_all = false;
-      term = "foot";
+      term = "alacritty";
       hide_scroll = true;
       print_command = true;
       insensitive = true;

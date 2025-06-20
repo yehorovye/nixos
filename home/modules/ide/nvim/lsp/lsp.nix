@@ -61,6 +61,9 @@
         vls = {
           enable = true;
         };
+        svelte = {
+          enable = true;
+        };
         helm_ls = {
           enable = true;
           extraOptions = {

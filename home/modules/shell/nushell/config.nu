@@ -10,7 +10,7 @@ const aliases_path = $config_path | path join "aliases";
 const hooks_path = $config_path | path join "nu-hooks/nu-hooks";
 
 # current theme
-source ($themes_path | path join "catppuccin-mocha.nu")
+source ($themes_path | path join "tokyo-moon.nu")
 
 # hooks
 source ($hooks_path | path join "rusty-paths/rusty-paths.nu")
@@ -30,7 +30,7 @@ source ($aliases_path | path join "git/git-aliases.nu")
 # custom scripts
 source ($scripts_path | path join "nufetch.nu")
 
-$env.PATH = ($env.PATH | 
+$env.PATH = ($env.PATH |
   split row (char esep) |
   prepend /home/ye/bin |
   append /home/ye/go/bin
@@ -73,7 +73,7 @@ def create_left_prompt [] {
 
     # Path segment (green)
     let path_segment = (
-        $env.PWD 
+        $env.PWD
         | str replace $env.HOME "~"
         | split row "/"
         | each {|it| $it }
@@ -102,7 +102,7 @@ def create_left_prompt [] {
     )
 
     # Combine all segments
-    [$time_segment $path_segment $git_segment $nix_segment] 
+    [$time_segment $path_segment $git_segment $nix_segment]
     | filter {|x| not ($x | is-empty) }
     | str join " "
 }

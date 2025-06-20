@@ -48,7 +48,6 @@
 
     # CLI utilities
     just
-    yazi
 
     # Wayland utilities
     grim

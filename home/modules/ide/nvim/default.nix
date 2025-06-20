@@ -35,6 +35,7 @@
       ./plugins/toggleterm.nix
       ./plugins/treesitter.nix
       ./plugins/treesj.nix
+      ./plugins/wakatime.nix
       ./plugins/yanky.nix
       ./plugins/yazi.nix
 
@@ -100,6 +101,9 @@
       asm-lsp
       bashdb
       delve
+
+      # Wakatime
+      wakatime-cli
     ];
 
     extraConfigLua = ''

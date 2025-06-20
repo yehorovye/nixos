@@ -29,8 +29,7 @@ in
         force_zero_scaling = "true";
       };
 
-      "$terminal1" = "alacritty";
-      "$terminal2" = "foot";
+      "$term" = "alacritty";
       "$browser" = "zen";
       "$menu" = "wofi --show drun";
       "$discord" = "discord";
@@ -46,7 +45,7 @@ in
         gaps_in = "5";
         gaps_out = "20";
         border_size = "1";
-        "col.active_border" = "rgb(cba6f7) rgb(f38ba8) 45deg";
+        "col.active_border" = "rgb(4c4f69) 45deg";
         "col.inactive_border" = "rgb(6c7086)";
         resize_on_border = "false";
         allow_tearing = "false";
@@ -114,8 +113,7 @@ in
         "$mainMod, L, exec, hyprlock"
         "$mainMod, PRINT, exec, nu ~/bin/tixte.nu --slurp"
         "$mainMod, SPACE, exec, $menu"
-        "$mainMod, G, exec, $terminal1"
-        "$mainMod, F, exec, $terminal2"
+        "$mainMod, T, exec, $term"
         "$mainMod, Z, exec, $browser"
         "$mainMod, D, exec, $discord"
         "$mainMod, Q, killactive"

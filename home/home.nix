@@ -10,9 +10,10 @@
     ./modules/hyprland/default.nix
 
     # terminals
-    ./modules/terminal/foot/default.nix
-    ./modules/terminal/ghostty/default.nix # disabled LLLLL
     ./modules/terminal/alacritty/default.nix
+
+    # stuff for terminals
+    ./modules/yazi/default.nix
 
     # ides
     ./modules/ide/nvim/default.nix
@@ -23,7 +24,6 @@
 
     # nix env
     ./modules/env/direnv/default.nix
-    ./modules/env/devenv/default.nix
   ];
 
   home.username = "ye";

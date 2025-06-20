@@ -3,7 +3,7 @@
     enable = true;
     settings = {
       options = {
-        theme = "catppuccin";
+        theme = "tokyonight";
         always_divide_middle = true;
         ignore_focus = [ "neo-tree" ];
         globalstatus = true; # single statusline at the bottom of Neovim

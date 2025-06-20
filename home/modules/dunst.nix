@@ -5,31 +5,35 @@
     settings = {
       global = {
         offset = "15x15";
-        corner_radius = 7;
-        transparency = 30;
+        corner_radius = 0;
+        transparency = 50;
         frame_width = 1;
         timeout = 3;
-        font = "JetBrainsMono Nerd Font 9";
-        foreground = "#cdd6f4";
-        background = "#181825";
-        icon_corner_radius = 5;
+        font = "JetBrainsMono Nerd Font 10";
+        icon_corner_radius = 0;
+        min_icon_size = 56;
       };
 
       urgency_low = {
-        frame_color = "#a6e3a1";
+        background = "#1e2030";
+        foreground = "#c8d3f5";
+        frame_color = "#c8d3f5";
         timeout = 3;
       };
 
       urgency_normal = {
-        frame_color = "#94e2d5";
+        background = "#222436";
+        foreground = "#c8d3f5";
+        frame_color = "#c8d3f5";
         timeout = 3;
       };
 
       urgency_critical = {
-        frame_color = "#f38ba8";
+        background = "#2f334d";
+        foreground = "#c53b53";
+        frame_color = "#c53b53";
         timeout = 5;
       };
     };
   };
 }
-
