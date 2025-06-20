@@ -23,10 +23,18 @@
 
 <details>
 <summary>Preview</summary>
-<img src="https://furry.is-from.space/r/ss_20250618_040935.png" />
-<img src="https://furry.is-from.space/r/ss_20250618_041222.png" />
+<img src="https://us-east-1.tixte.net/uploads/furry.is-from.space/BGseUibS65.png" />
+<img src="https://us-east-1.tixte.net/uploads/bussin.with-your.mom/cjAAqzlEPw.png" />
+<img src="https://us-east-1.tixte.net/uploads/furry.is-from.space/ZXXgQBMaQT.png" />
 </details>
 
-## using
+## theme
+i use Tokyonight as main theme (usually moon, but i use night for nvim)
 
-I'm ok if you use my config, do whatever you want.
+## file manager
+i use [Yazi](https://yazi-rs.github.io/) as file manager (terminal)
+
+## software
+- nvim based on [XhuyZ's nixvim](https://github.com/XhuyZ/nixvim)
+- [Yazi](https://yazi-rs.github.io/) as file manager (terminal)
+- todo
