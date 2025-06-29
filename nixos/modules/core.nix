@@ -40,7 +40,6 @@
   environment.systemPackages = with pkgs; [
     # Networking and downloads
     curl
-    gallery-dl
     git
     git-credential-manager
     wget
@@ -56,6 +55,10 @@
     swww
     pavucontrol
     wl-clipboard
+    thunderbird
+
+    # games
+    xonotic
 
     # cursor
     bibata-cursors

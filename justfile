@@ -61,7 +61,7 @@ repl:
 # 🧹 Clean up system profile history older than 7 days.
 # Usage: just clean
 clean:
-  sudo nix profile wipe-history --profile /nix/var/nix/profiles/system --older-than 7d
+  sudo nix profile wipe-history --profile /nix/var/nix/profiles/system --older-than 1d
 
 # 🧼 Collect and delete old garbage as root.
 # Usage: just gc-sudo

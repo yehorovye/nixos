@@ -39,7 +39,6 @@ in
     enable = true;
     enabledExtensions = with spicePkgs.extensions; [
       adblock
-      beautifulLyrics
       hidePodcasts
     ];
     colorScheme = "Ocean";

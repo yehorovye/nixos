@@ -36,11 +36,11 @@
       ./plugins/treesitter.nix
       ./plugins/treesj.nix
       ./plugins/wakatime.nix
+      ./plugins/web-devicons.nix
       ./plugins/yanky.nix
       ./plugins/yazi.nix
 
       # LSP
-      ./lsp/conform.nix
       ./lsp/fidget.nix
       ./lsp/lsp.nix
       ./lsp/roslyn.nix

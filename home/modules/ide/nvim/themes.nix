@@ -1,16 +1,17 @@
-{ ... }:
 {
   colorschemes = {
     tokyonight = {
       enable = true;
       settings = {
-        style = "night";
-        transparent = false;
-        styles = {
-          comments.italic = true;
-          keywords.italic = false;
-          floats = "transparent";
-        };
+        transparent = true;
+        style = "night"; # Options: "storm", "night", "day", "moon"
+        cmp = true;
+        illuminate = true;
+        indentblankline = true;
+        lsp_semantic = true;
+        mini_completion = true;
+        telescope = true;
+        telescope_borders = false;
       };
     };
   };

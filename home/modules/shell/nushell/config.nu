@@ -33,7 +33,7 @@ source ($scripts_path | path join "nufetch.nu")
 $env.PATH = ($env.PATH |
   split row (char esep) |
   prepend /home/ye/bin |
-  append /home/ye/go/bin
+  prepend /home/ye/scripts
 )
 
 $env.config = {
